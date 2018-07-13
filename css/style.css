@@ -257,7 +257,7 @@ html {
     transition: 0.3s !important;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 990px) {
     .missiontext {
         color: white;
         font-family: 'Gotham Rounded', Fallback, sans-serif !important;
@@ -294,7 +294,10 @@ html {
     }
 }
 
-@media screen and (max-width: 600px) {
+
+
+
+@media screen and (max-width: 900px) {
     .missiontext {
         color: white;
         font-family: 'Gotham Rounded', Fallback, sans-serif !important;
@@ -355,6 +358,31 @@ html {
         transition: 0.3s !important;
     }
 }
+
+@media screen and (max-height: 800px) {
+    .missiontext {
+        color: white;
+        font-family: 'Gotham Rounded', Fallback, sans-serif !important;
+        font-size: 17px;
+        font-weight: bold;
+        line-height: 22px;
+        margin-top: 70px;
+        -webkit-transition: 0.3s !important;
+        /* Safari */
+        transition: 0.3s !important;
+    }
+    .headertext {
+        color: white;
+        font-family: 'Gotham Rounded', Fallback, sans-serif !important;
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 40px;
+        -webkit-transition: 0.3s !important;
+        /* Safari */
+        transition: 0.3s !important;
+    }
+}
+
 
 .artimage {
     width: 60%;
